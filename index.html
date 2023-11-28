@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Pagina Test</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="nav-bar">
+    <nav class="navbar-class">
+      <ul class="links-nav-bar">
+        <a href="#home" class="active">Home</a>
+        <a href="#skill">Experiencia y habilidades</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#contacto">Contacto</a>
+      </ul>
+      <button class="nav-bar-btn">
+        <box-icon name="menu"></box-icon>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <div class="container">
+        <div class="home">
+          <div class="home-left">
+            <h1 class="home-description-title">Design experience</h1>
+            <p class="home-lorem">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p class="home-design-experience">
+              <span class="highlight">+5 años</span> de experiencia
+            </p>
+            <div class="home-design-social-media">
+              <img class="icon-style" href="#" src="./Íconos/linkedin.png" alt="" />
+              <img class="icon-style" href="#" src="./Íconos/instagram.svg" alt="" />
+              <img class="icon-style" href="#" src="./Íconos/twitter.svg" alt="" />
+            </div>
+
+            <button class="home-btn-contact">
+              <p>Contáctame</p>
+            </button>
+          </div>
+          <div class="home-right">
+            <div class="photo-right">
+              <img src="./Imágenes/photo desktop.png" class="photo-style" alt="face-photo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skill">
+      <div class="container">
+        <div class="skill">
+          <div class="skill-description">
+            <h2 class="title-skill">Experiencia y habilidades</h2>
+            <p class="skill-lorem">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="expertise-description">
+            <h3 class="expertise-description-title">Experiencia</h3>
+            <ul class="expertise-skill-list">
+              <li>
+                <p class="years_1">2016-2018</p>
+                <h4 class="skill-name_1">Visual Designer</h4>
+                <span class="company-name_1">Wizeline</span>
+              </li>
+              <li>
+                <p class="years_2">2018-2019</p>
+                <h4 class="skill-name_2">Product Designer</h4>
+                <span class="company-name_2">Microsoft</span>
+              </li>
+              <li>
+                <p class="years_3">2019-2021</p>
+                <h4 class="skill-name_3">UI Engineer</h4>
+                <span class="company-name_3">Google</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="competence-container">
+          <div class="compotence-header">
+            <h3 class="competence-title">Habilidades</h3>
+          </div>
+          <div class="competence-group">
+            <div class="competence-list center-content">
+              <div class="competence-design">
+                <img src="./Íconos/mobile.svg" alt="" />
+                <span>Mobile App Design</span>
+              </div>
+              <div class="competence-design">
+                <img src="./Íconos/motion.svg" alt="" />
+                <span>Motion Design</span>
+              </div>
+              <div class="competence-design">
+                <img src="./Íconos/material.svg" alt="" />
+                <span>Creación y mantenimiento de sistemas de diseño</span>
+              </div>
+              <div class="competence-design">
+                <img src="./Íconos/design.svg" alt="" />
+                <span>Gestión de Proyectos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="container">
+        <div class="portfolio">
+          <h2 class="portfolio-title">Portafolio</h2>
+          <div class="portfolio-grid">
+            <div class="portfolio-projects-group">
+              <span class="portfolio-group-title"> Beauty app</span>
+              <img class="portfolio-photo" src="./Imágenes/ejemplo 3.png"></img>
+            </div>
+            <div class="portfolio-projects-group">
+              <span class="portfolio-group-title"> Training app</span>
+              <img class="portfolio-photo" src="./Imágenes/ejemplo 1.png"></img>
+            </div>
+            <div class="portfolio-projects-group">
+              <span class="portfolio-group-title"> Hotel app</span>
+              <img class="portfolio-photo" src="./Imágenes/ejemplo 2.png"></img>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <div class="container">
+        <div class="contact">
+          <h2 class="contact-title">Contacto</h2>
+          <div class="contact-grid">
+            <div class="contact-group">
+              <img class="contact-photo" src="./Íconos/phone.svg"></img>
+              <span class="contact-example-title">Número celular</span>
+              <span class="contact-data">5526895424</span>
+            </div>
+            <div class="contact-group">
+              <img class="contact-photo" src="./Íconos/mail.svg"></img>
+              <span class="contact-example-title">Email</span>
+              <span class="contact-data">example@correo.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const links = document.querySelectorAll(".links-nav-bar a");
+
+      links.forEach((link) => {
+        link.addEventListener("click", function () {
+          links.forEach((l) => l.classList.remove("active"));
+          this.classList.add("active");
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
